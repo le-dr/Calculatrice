@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculatrice</title>
+</head>
+
+<body>
+    <div class="calculatrice">
+        <div class="ecran" id="ecran"></div>
+        <div class="touches">
+            <button class="bouton" onclick="bouttonC()">C</button>
+            <button class="bouton" onclick="signeAtr(this.innerText)">^</button>
+            <button class="bouton" onclick="signeAtr(this.innerText)">√</button>
+            <button class="bouton" onclick="signeAtr(this.innerText)">/</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">7</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">8</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">9</button>
+            <button class="bouton" onclick="signeAtr(this.innerText)">*</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">4</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">5</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">6</button>
+            <button class="bouton" onclick="signeAtr(this.innerText)">-</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">1</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">2</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">3</button>
+            <button class="bouton" onclick="signeAtr(this.innerText)">+</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">0</button>
+            <button class="bouton" onclick="chiffreAtr(this.innerText)">.</button>
+            <button class="bouton" onclick="resultat()">=</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
